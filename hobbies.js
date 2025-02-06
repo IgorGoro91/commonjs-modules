@@ -9,3 +9,5 @@ function getHobbies(tuttiHobby) {
 }
 
 console.log(getHobbies(hobby))
+
+module.exports = getHobbies;

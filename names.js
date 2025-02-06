@@ -10,3 +10,4 @@ function fullName(person) {
 
 console.log(fullName(names))
     
+module.exports = fullName;
