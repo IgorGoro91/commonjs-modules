@@ -3,12 +3,10 @@ const names = {
     lastName: 'Goro',
 }
 
-function fullName (names){
-    return {
-        firstName, 
-        lastName,
-    }
+function fullName(person) {
+    return person.firstName +" " +person.lastName;
+     
 }
-// module.exports = fullName;
 
-console.log(fullName)
+console.log(fullName(names))
+    
