@@ -1,13 +1,16 @@
-const names = {
-    firstName: 'Igor',
-    lastName: 'Goro',
-}
+// const names = {
+//     firstName: 'Igor',
+//     lastName: 'Goro',
+// }
 
-function fullName(person) {
-    return person.firstName +" " +person.lastName;
+// function fullName(person) {
+//     return person.firstName +" " +person.lastName;
      
-}
+// }
 
-console.log(fullName(names))
+const fullName = ( firstName, lastName) => ({firstName, lastName})
+
+
+
     
 module.exports = fullName;
